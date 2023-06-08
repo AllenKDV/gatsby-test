@@ -1,6 +1,17 @@
-import * as React from "react"
+import * as React from 'react';
 
-const pageStyles = {
+const Homepage = () => {
+  return (
+    <>
+      <h1>The Great Allen Gatsby</h1>
+      <p>This is Sparta!</p>
+    </>
+  );
+};
+
+export default Homepage;
+
+/* const pageStyles = {
   color: "#232129",
   padding: 96,
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
@@ -174,3 +185,4 @@ const IndexPage = () => {
 export default IndexPage
 
 export const Head = () => <title>Home Page</title>
+ */
