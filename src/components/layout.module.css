@@ -1,20 +1,32 @@
 .container {
   margin: auto;
-  max-width: 500px;
+  max-width: 800px;
   font-family: sans-serif;
 }
 
 .heading {
-  color: rebeccapurple;
+  color: rgb(146, 34, 0);
 }
 .nav-links {
   display: flex;
   list-style: none;
   padding-left: 0;
+  padding-bottom: 1.5rem;
+  justify-content: center;
 }
 .nav-link-item {
   padding-right: 2rem;
 }
 .nav-link-text {
   color: black;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.logoImg {
+  width: 150px;
 }
