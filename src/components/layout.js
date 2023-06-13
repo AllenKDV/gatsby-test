@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Link } from 'gatsby';
-import logoImg from '../images/sad_corgi.png';
+import { StaticImage } from 'gatsby-plugin-image';
 import {
   container,
   heading,
@@ -14,8 +14,9 @@ const Layout = ({ pageTitle, children }) => {
   return (
     <div className={container}>
       <logo className={logo}>
-        <img
-          src={logoImg}
+        <StaticImage
+          alt="Sad Corgi"
+          src="../images/sad_corgi.png"
           style={{
             resizeMode: 'cover',
             width: 150,

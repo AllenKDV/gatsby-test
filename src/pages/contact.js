@@ -9,4 +9,11 @@ const Contact = () => {
   );
 };
 
+export const Head = () => (
+  <>
+    <title>Contact Me</title>
+    <meta name="description" content="Contact The Great Allen Gatsby" />
+  </>
+);
+
 export default Contact;

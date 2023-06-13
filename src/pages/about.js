@@ -9,4 +9,11 @@ const About = () => {
   );
 };
 
+export const Head = () => (
+  <>
+    <title>About Me</title>
+    <meta name="description" content="About The Great Allen Gatsby" />
+  </>
+);
+
 export default About;
