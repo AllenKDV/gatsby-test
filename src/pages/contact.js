@@ -3,7 +3,7 @@ import Layout from '../components/layout';
 
 const Contact = () => {
   return (
-    <Layout pageTitle="Contact Allen Gatsby">
+    <Layout pageTitle="Contact">
       <p>Sorry, not taking any requests today.</p>
     </Layout>
   );
@@ -11,7 +11,6 @@ const Contact = () => {
 
 export const Head = () => (
   <>
-    <title>Contact Me</title>
     <meta name="description" content="Contact The Great Allen Gatsby" />
   </>
 );
