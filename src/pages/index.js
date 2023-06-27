@@ -1,6 +1,7 @@
 import * as React from 'react';
 import Layout from '../components/layout';
 import { StaticImage } from 'gatsby-plugin-image';
+import Seo from '../components/seo';
 
 const Homepage = () => {
   return (
@@ -20,7 +21,7 @@ const Homepage = () => {
 
 export const Head = () => (
   <>
-    <title>The Great Allen Gatsby</title>
+    <Seo title="The Great Allen Gatsby" />
     <meta name="description" content="This is spart Description" />
   </>
 );
